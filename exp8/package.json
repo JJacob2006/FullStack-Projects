@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harman-dev96/exp8.git"
+    "url": "git+https://github.com/JJacob2006/FullStack-Projects.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/harman-dev96/exp8/issues"
+    "url": "https://github.com/JJacob2006/FullStack-Projects/issues"
   },
-  "homepage": "https://github.com/harman-dev96/exp8#readme",
+  "homepage": "https://github.com/JJacob2006/FullStack-Projects#readme",
   "dependencies": {
     "axios": "^1.15.1",
     "cors": "^2.8.6",
