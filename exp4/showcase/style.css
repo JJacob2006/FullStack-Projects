@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: radial-gradient(circle at top, #020617, #0f172a);
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.desc {
+    text-align: center;
+    color: #94a3b8;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+.repo {
+    margin-top: 20px;
+    text-align: center;
+}
