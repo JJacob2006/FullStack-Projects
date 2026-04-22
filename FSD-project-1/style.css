@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.theme-switch {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    justify-content: center;
+}
+
+.light-mode-btn {
+    padding: 8px 16px;
+    border: 1px solid #cccccc;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dark-mode-btn {
+    padding: 8px 16px;
+    border: 1px solid #222;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.content {
+    display: flex;
+    gap: 24px;
+}
+
+.menu {
+    width: 200px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgets {
+    display: flex;
+    gap: 24px;
+}
+
+.widget {
+    width: 180px;
+   height: 180px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(232, 182, 121);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    padding: 8px 12px;
+    margin: 5px;
+    background: white;
+    cursor:pointer;
+    border-radius: 100px;
+    border: 0.1px solid;
+}
+
+#all:checked + label,
+#fashion:checked + label,
+#electronics:checked + label,
+#accessories:checked + label {
+    background: black;
+    color: bisque;
+}
+
+.products {
+    margin-top: 20px;
+}
+
+.products div {
+    border: 1px solid rgb(128, 18, 18);
+    padding: 10px;
+    margin: 10px auto;
+    width: 250px;
+}
+
+#fashion:checked ~ .products div:not(.fashion) {
+    display: none;
+}
+#electronics:checked ~ .products div:not(.electronics) {
+    display: none;
+}
+#accessories:checked ~ .products div:not(.accessories) {
+    display: none;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+    transition: 0.54s;
+    cursor: pointer;
+}
