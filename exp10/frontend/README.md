@@ -1,23 +1,35 @@
-## 1. Personal Information
-
-Name: Pardhasaradhi
-UID: 24BCF10009
-Group: 24BCF1-B
+Name: John Jacob  
+UID: 24BCF10037  
+Section: 24BCF-1(B)
 
 ---
 
-## 2. Title
+# Frontend
 
-Full Stack Todo Application (CRUD) using MERN Stack
+React-based frontend for the full-stack application.
 
----
+## Available Scripts
 
-## 3. Approach
+In the project directory, you can run:
 
-A full-stack Todo application was developed using React for the frontend and Node.js with Express for the backend. The application supports CRUD operations, allowing users to add, view, update, and delete tasks.
+### `npm start`
+Runs the app in development mode.  
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The frontend communicates with backend APIs using Axios. To enhance usability, additional features such as task filtering (All, Completed, Pending), inline editing, progress tracking, and local storage persistence were implemented.
+### `npm test`
+Launches the test runner in interactive watch mode.
 
-For deployment, the frontend was hosted on Netlify to provide an accessible user interface. Since backend deployment was not included, screenshots of the fully functional application (running locally) were added to demonstrate complete CRUD operations.
+### `npm run build`
+Builds the app for production to the `build` folder.
 
-This approach ensures a clear separation of frontend and backend, while still showcasing the complete functionality of the application effectively.
+## Project Structure
+
+- **public/** - Static files and HTML template
+- **src/** - React components and styling
+- **build/** - Production build output
+
+## Features
+
+- Responsive UI
+- Component-based architecture
+- CSS styling
