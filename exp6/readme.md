@@ -1,25 +1,40 @@
-Step 1: Setup the Project
-Created a Node.js project using npm init
-Installed required packages: Express, JSON Web Token, Nodemon
-Created main file index.js
-Step 2: Create Express Server
-Imported Express and initialized app
-Used built-in middleware express.json() to handle JSON data
-Started server on port 3000
-Step 3: Implement Logging Middleware
-Created a custom middleware function
-It logs request method and URL (e.g., GET /dashboard)
-Used next() to pass control to next middleware
-Step 4: Implement Authentication Middleware
-Used JWT to verify user identity
-Checked token from request headers
-Returned 401 error if token is missing or invalid
-Allowed access if token is valid
-Step 5: Apply Middleware & Test
-Created routes:
-/login → generates token
-/dashboard → protected route
-Applied authentication middleware to protected route
-Tested using Postman:
-Verified token-based access
-Checked error handling
+# Full-Stack Experiment 6
+
+**Name:** John Jacob  
+**UID:** 24BCF10037  
+**Section:** 24BCF-1(B)
+
+## Overview
+
+This is a full-stack web application project.
+
+## Project Structure
+
+- `server.js` - Backend server implementation
+- `package.json` - Project dependencies and configuration
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed on your system
+
+### Installation
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the server:
+   ```bash
+   node server.js
+   ```
+
+## Features
+
+- Server-side implementation with Node.js
+
+## License
+
+This project is part of coursework for the Full-Stack Development course.
