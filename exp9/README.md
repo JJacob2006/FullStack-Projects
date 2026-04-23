@@ -1,7 +1,7 @@
 ## 1. Personal Information
 
-* **Name:** Pardhasaradhi
-* **UID:** 24BCF10009
+* **Name:** John Jacob 
+* **UID:** 24BCF10037
 * **Group:** 24BCF1-B
 
 ---
